@@ -1,0 +1,45 @@
+body {
+    display:flex;
+    background-color: #161716;
+    flex-direction: column;
+    
+}
+
+nav {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: #dddddd;
+    z-index: 999;
+  }
+  
+
+ul {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+}
+
+li a {
+    color: #2b2b2b;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: background 0.3s;
+  }
+  
+  li a:hover {
+    background-color: #555;
+    cursor: default;
+  }
+
+h1 {
+    margin-top: 5%;
+    text-align: center;
+    display: flex;
+    color: #dddddd;
+    align-self: center;
+}
